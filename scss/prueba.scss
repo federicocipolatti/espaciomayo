@@ -1,0 +1,187 @@
+/*HEADER*/
+
+.barra_inicio{
+    background-color: #C5A781;
+}
+
+a{
+    color: white !important;
+}
+
+a:hover{
+    color: black !important;
+}
+
+button{
+    background-color: #C5A781 !important;
+    color: white !important;
+}
+
+button:hover{
+    color: black !important;
+}
+
+/*FIN HEADER*/
+
+/*BOTON VOLVER*/
+
+.volver{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    display: flex;
+    justify-content: left;
+}
+
+/*FIN VOLVER*/
+
+/*PIE DE PAG*/
+
+.piedepag{
+    display: flex;
+    padding: 60px 0px 5px;  
+    justify-content: center;
+    background-color:#C5A781;
+    width: 100%;
+
+    .container{
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        justify-content: center;
+    }
+
+}
+
+.txtfoot{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;  
+    width: 100%;
+    color:white;
+
+    background-color: #C5A781;
+}
+
+/*FIN PIE DE PAGINA*/
+
+/*INICIO HOME*/
+
+$estilo-letra: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+.link {
+    font-family: $estilo-letra;
+    font-size: large;
+}
+
+.txthome{
+    font-family: $estilo-letra;
+    font-size: medium;
+    transition: all 2s;
+}
+
+#carouselExampleIndicators{
+    width: 100%;
+}
+
+.slides_inicio {
+    width: 100%;
+}
+.carousel-inner{
+    width:100%;
+    max-height: 500px !important;
+}
+
+.carousel-caption{
+    position: absolute; 
+    right: 15%;
+    top: 370px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    text-align: center;
+}
+
+.botonarq{
+    display: flex;
+    margin-left: 350px;
+    transition: all 2s;
+}
+
+.botonarq:hover{
+    width: 120px;
+}
+
+.botonhome{
+    display: flex;
+    transition-duration: width 2s;
+}
+
+.botonhome:hover{
+    width: 120px;
+}
+
+/*FIN HOME*/
+
+/*INICIO SOBRE NOS*/
+
+$color-mayo: #C5A781;
+
+.sobrenos{
+    color:  black;
+    font-size: large;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.imgsobrenos{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/*FIN SOBRE NOS*/
+
+/*INICIO CONTACTO*/
+
+$color-mayo: #C5A781;
+$letra-cons: oblique;
+
+.tituloConsulta{
+    color: $color-mayo;
+    font-style: $letra-cons;
+    font-size: xx-large;
+}
+
+.textoConsulta{
+    color: $color-mayo;
+    font-style: $letra-cons;
+    font-size: large;
+}
+
+.cons{
+    color: $color-mayo;
+    font-style: $letra-cons;
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+}
+
+#consulta{
+    background-color:  white;
+    font-style: $letra-cons;
+    font-size: large;
+    display: block;
+    width: 75%;
+    position: center;
+    padding: 4px;
+    border: solid  #C5A781 5px;
+    display: flex;
+    flex-direction: column;
+    transition: 2s;
+    margin-left: 30px;
+}
+
+/*FIN CONTACTO*/
